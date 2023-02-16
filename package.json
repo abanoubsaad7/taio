@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "formidable": "^2.1.1",
+    "mongoose": "^6.8.1",
+    "multer": "^1.4.5-lts.1",
+    "mv": "^2.1.1",
+    "nodemon": "^2.0.20",
+    "util": "^0.12.5"
+  },
+  "name": "taio",
+  "version": "1.0.0",
+  "description": "the first  e-commerce i do by all of frontEnd and backEnd",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Abanoub Saad",
+  "license": "ISC"
+}

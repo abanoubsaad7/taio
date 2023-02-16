@@ -1,0 +1,258 @@
+body{
+    font-family: 'Marhey', cursive;
+    color: #152A38;
+    
+}
+section,footer{
+    display: none;
+}
+section#header{
+    background-color: #D1D4C9;
+    padding: 3% 3%;
+    font-family: 'Marhey', cursive;
+}
+.logo1{
+    margin: 0 0 3% 0;
+}
+.title{
+    color: #556E53;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    font-size: 8vw;
+}
+.subtitle{
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    font-size: 6vw;
+}
+h1.header{
+    display: inline;
+    color: #556E53;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    font-size: 2vw;
+}
+#log {
+
+    padding: 5% 10% 15% 7%;
+    background-color: #D1D4C9;
+}
+
+form {
+    width: fit-content;
+    padding: 2% 3%;
+  
+}
+h4,th{
+   
+    font-family: 'Josefin Sans', sans-serif;
+}
+p,td,h2,.lonbtn{
+  font-family: 'Changa', sans-serif;
+}
+.search{
+    margin: 2% 3%;
+}
+.lonbtn {
+    color: #556E53;
+    border-color: #556E53;
+}
+
+.lonbtn:hover {
+    background-color: #556E53;
+    border-color: #556E53;
+    color: white;
+}
+
+
+#add {
+
+    padding: 5% 1%;
+    background-color: #D1D4C9;
+}
+section#product{
+    
+    padding: 3% 2% 5% 5%;
+    background-color: #D1D4C9;
+}
+h2.product{
+    padding-left: 3%;
+}
+.lon {
+    color: rgb(12 12 42);
+    background-color: rgb(12 12 42);
+}
+
+#tools {
+    background-color: #D1D4C9;
+    padding: 1% 7%;
+    direction: rtl;
+    font-family: 'Marhey', cursive;
+}
+.pages{
+    text-shadow: 0px 3px 1px #fff;
+    background-color: #152A38;
+    padding: 2% 6%;
+    margin: 2%;
+    border-radius: 30px;
+}
+.card-pro {
+    margin: 3% 4%;
+    padding: 3% 2%;
+    display: inline-block;
+    width: 25%;
+    height: fit-content;
+}
+
+.card-item {
+    width: fit-content;
+}
+
+label {
+    margin: 5%;
+
+}
+
+#about {
+    color: black;
+    text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+    background-image: url(img/bg.jpg);
+    padding: 5% 3%;
+    font-family: 'Marhey', cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img {
+    opacity: 2;
+}
+
+section#description,
+#manage  {
+    padding: 5% 3%;
+    background-color:#D1D4C9;
+}
+#welcome{
+    background-image: url(img/Picsart_22-12-22_21-06-50-030.png);
+    padding: 5% 3%;
+    font-family: 'Marhey', cursive;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #D1D4C9;
+    height: 93vw;
+}
+.btnwelcome{
+    
+    color: #556E53;
+    border-color: #556E53;
+}
+.btnwelcome:hover{
+    color: white;
+    background-color: #556E53;
+}
+h1.welcome{
+    text-shadow: 0px 3px 1px #fff;
+    font-weight: bolder;
+    font-size: 5vw;
+    padding: 3% 3% 5% 3%;
+    margin: 3% 3% 5% 3%;
+}
+a.welcome{
+    margin: 5% 4%;
+}
+footer{
+    padding: 5% 3%;
+    color:white;
+    background-color: #152A38;
+}
+img.dis {
+    width: fit-content;
+    height: 30vw;
+    border-radius: 30px;
+    border-color: rgba(5, 26, 75, 0.934);
+}
+
+.logo {
+    height: 20vw;
+}
+
+.manage {
+    margin: 5% 2%;
+    height: 10vw;
+    width: 11vw;
+}
+
+.pro-img {
+    height: 10vw;
+}
+#contact{
+    background-color: #152A38;
+   color: white;
+   padding: 5% 3%;
+}
+h3.admin{
+    display:none;
+    margin: 3%;
+}
+button.admin1,button.admin2,button.admin3,button.admin4{
+    display: inline-block;
+    margin: 3%;
+    padding: 2%;
+}
+hr{
+    width: 80%;
+}
+
+@media  (max-width: 600px) {
+    .logo {
+        height: 40vw;
+    }
+
+    img.dis {
+        width: fit-content;
+        height: 50vw;
+        border-radius: 30px;
+        border-color: rgba(5, 26, 75, 0.934);
+    }
+
+    .manage {
+        margin: 5% 2%;
+        height: 15vw;
+        width: 20vw;
+    }
+
+    .pro-img {
+        height: 20vw;
+    }
+    h1.header{
+        display: inline;
+        color: #556E53;
+        text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+        font-size: 5vw;
+    }
+    .card-pro {
+        margin: 3% 2%;
+        padding: 3% 2%;
+        display: inline-block;
+        width: 40%;
+        height: fit-content;
+    }
+
+    card-text {
+        overflow: auto;
+    }
+    #about {
+        color: black;
+        text-shadow: -1px 0 whitesmoke, 0 1px whitesmoke, 1px 0 whitesmoke, 0 -1px whitesmoke;
+        background-image: url(img/bg-sm.png);
+        padding: 5% 3%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #log {
+
+        padding: 28% 4% 25% 15%;
+        
+    }
+    
+}

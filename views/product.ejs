@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+ <%- include('partials/head') %> 
+
+  <body>
+    <%- include('partials/header') %> 
+    <section id="product">
+      <div class="">
+        
+        <h2 class="product">the Taio product</h2>
+        <% arrProduct.forEach (item=> { %> 
+        <div class="card card-pro">
+          <img src="productImg/<%= item.imgPath %>" class="card-img-top pro-img" alt="..." />
+          <div class="card-body card-item">
+            <h4 class="card-title"><%= item.proTitle %></h4>
+            <p class="card-text"><%= item.proDescription %></p>
+            <h5><%= item.proPrice %> Taio</h5>
+            <a href="product/<%= item._id %>" class="btn btn-primary">buy now</a>
+          </div>
+        </div>
+        
+        <% }) %> 
+        
+        
+      </div>
+    </section>
+    <section id="about">
+      <center>
+        <img src="/img/logo.png" alt="logo" class="logo" />
+        <h2>اسرة مارجرجس اعدادي</h2>
+        <h3>اسرة بتحبك ومستنياااااااااااااااااااك</h3>
+      </center>
+    </section>
+    <section id="contact">
+      <center>
+        <h2> متنساش </h2>
+      </center>
+      
+      <center>
+        <hr />
+        <h2>اسرة بتحبك ومستنيااااك</h2>
+      </center>
+    </section>
+  </body>
+</html>
